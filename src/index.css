@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  padding: 0%;
+}
+
+i,a {
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+table, tbody, thead, tr, td {
+  color: white;
+}
+
