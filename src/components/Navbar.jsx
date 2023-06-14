@@ -20,9 +20,24 @@ export default function Navbar() {
             <i className='font-semibold'>Kshitiksha Foundation</i>
         </div>
         <div className='hidden lg:flex gap-x-4'>
-            <i className='font-medium'>Home</i>
-            <i className='font-medium'>About</i>
-            <i className='font-medium'>Contact Us</i>
+            <i className='font-medium cursor-pointer' onClick={()=>{
+                window.scrollTo({
+                    top:0,
+                    behavior:'smooth'
+                })
+            }}>Home</i>
+            <i className='font-medium cursor-pointer' onClick={()=>{
+                window.scrollTo({
+                    top:720,
+                    behavior:'smooth'
+                })
+            }}>About</i>
+            <i className='font-medium cursor-pointer' onClick={()=>{
+                window.scrollTo({
+                    top:2000,
+                    behavior:'smooth'
+                })
+            }}>Contact Us</i>
         </div>
         <div className='hidden lg:flex gap-x-4'>
             <i className='font-medium px-2 py-1 rounded-md bg-green-500 text-white'>Contribute</i>
@@ -37,9 +52,24 @@ export default function Navbar() {
     animate={{y:0}}
     >
     <div className='flex flex-col gap-x-4'>
-            <i className='font-medium'>Home</i>
-            <i className='font-medium'>About</i>
-            <i className='font-medium'>Contact Us</i>
+            <i className='font-medium cursor-pointer' onClick={()=>{
+                window.scrollTo({
+                    top:0,
+                    behavior:'smooth'
+                })
+            }}>Home</i>
+            <i className='font-medium cursor-pointer' onClick={()=>{
+                window.scrollTo({
+                    top:1000,
+                    behavior:'smooth'
+                })
+            }}>About</i>
+            <i className='font-medium cursor-pointer' onClick={()=>{
+                window.scrollTo({
+                    top:3000,
+                    behavior:'smooth'
+                })
+            }}>Contact Us</i>
         </div>
         <div className='flex flex-col gap-x-4 mt-2'>
             <i className='inline font-medium px-2 py-1 rounded-md bg-green-500 text-white'>Contribute</i>
